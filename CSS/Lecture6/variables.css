@@ -1,0 +1,25 @@
+:root {
+  --box-bg: #ccc;
+  --box-radius: 12px;
+  --box-bg-rd: linear-gradient(to right, #8a2387, #e94057, #f27121);
+}
+
+div {
+  margin: 20px;
+}
+
+.box1 {
+  background: var(--box-bg-rd);
+  padding: 8px;
+  border-radius: var(--box-radius);
+}
+.box2 {
+  background-color: var(--box-bg);
+  padding: 8px;
+  border-radius: var(--box-radius);
+}
+.box3 {
+  background: var(--box-bg-rd);
+  padding: 8px;
+  border-radius: var(--box-radius);
+}

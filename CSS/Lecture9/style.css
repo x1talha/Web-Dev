@@ -1,0 +1,16 @@
+.parent {
+  background-color: aqua;
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+
+.child {
+  background-color: bisque;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 300px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 30px;
+            gap: 30px;
+        }
+
+        .card img {
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            height: 30%;
+        }
+
+        .textbox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            width: 75%;
+            text-align: center;
+        }
+
+        .textbox p {
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="image.png" alt="">
+
+            <div class="textbox">
+                <h3>Order Summary</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae iusto facilis quaerat est
+                    harum.
+                    Voluptatibus inventore quod esse vero sapiente?</p>
+            </div>
+
+            <div></div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>

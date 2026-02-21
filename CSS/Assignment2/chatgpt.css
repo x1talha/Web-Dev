@@ -1,0 +1,541 @@
+/* ===== Global styles ===== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #111827;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* ===== Navbar ===== */
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 250px;
+  height: 40px;
+  padding: 0 8px;
+}
+
+.searchbar button {
+  padding: 10px 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #20b486;
+  background-color: #f2fffb;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.searchbar img {
+  height: 15px;
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+}
+
+.links a {
+  font-size: 14px;
+  color: #111827;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login a {
+  font-size: 14px;
+  color: #111827;
+}
+
+.login button {
+  background-color: #20b486;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 16px;
+  border: 2px solid #f4ebff;
+  cursor: pointer;
+  width: 140px;
+}
+
+/* ===== Hero section ===== */
+
+.hero {
+  position: relative;
+  width: 100%;
+  padding: 40px 40px 80px;
+}
+
+.lefthero {
+  position: relative;
+  width: 50%;
+  max-width: 600px;
+  margin-left: 40px;
+}
+
+.lefthero span {
+  color: #20b486;
+  font-weight: 700;
+}
+
+.lefthero h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin: 40px 0 16px;
+}
+
+.lefthero p {
+  color: #6b7280;
+  margin: 0 0 24px;
+  max-width: 480px;
+}
+
+#btn1,
+#btn2 {
+  padding: 10px 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #d0d5dd;
+}
+
+#btn1 {
+  background-color: #20b486;
+  color: white;
+  border-color: #20b486;
+}
+
+#btn2 {
+  background-color: #eafff9;
+  color: #20b486;
+  margin-left: 12px;
+}
+
+#details {
+  margin-top: 24px;
+}
+
+#details p {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
+#details img {
+  height: 16px;
+  margin-right: 4px;
+}
+
+.herobottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0 0;
+  max-width: 600px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left h3 {
+  margin: 0;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.left span {
+  margin-top: 4px;
+  line-height: 1.1;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right img {
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Hero decorative images (right side graphics) */
+
+.hero #ellipse {
+  height: 300px;
+  position: absolute;
+  left: 5px;
+  bottom: 100px;
+}
+
+.hero #ellipse1 {
+  height: 300px;
+  position: absolute;
+  right: 1px;
+  bottom: 10px;
+}
+
+.hero #dot {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.hero #girl {
+  height: 350px;
+  position: absolute;
+  right: 120px;
+  bottom: -55px;
+}
+
+.hero #bg-dot-right {
+  height: 700px;
+  position: absolute;
+  right: 30px;
+  top: -120px;
+}
+
+.hero #btn3 {
+  position: absolute;
+  height: 150px;
+  right: 300px;
+  top: 100px;
+}
+
+.hero #btn7 {
+  position: absolute;
+  height: 200px;
+  right: 60px;
+  border-radius: 20px;
+}
+
+.hero #btn8 {
+  position: absolute;
+  height: 110px;
+  right: 70px;
+  bottom: -60px;
+}
+
+/* ===== Services section ===== */
+
+.services {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px 0;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text h4 {
+  color: #20b486;
+  margin: 0 0 8px;
+}
+
+.text h1 {
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px 40px 0;
+}
+
+.card1,
+.card2,
+.card3 {
+  flex: 1;
+  min-width: 260px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.card1 {
+  background-color: #4ac8ae;
+  color: white;
+}
+
+.card1 p {
+  color: #e5e7eb;
+}
+
+.card11,
+.card22,
+.card33 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card2,
+.card3 {
+  background-color: #ffffff;
+  color: #20b486;
+  border: 1px solid #000000;
+}
+
+.card2 h2,
+.card3 h2 {
+  color: #111827;
+}
+
+.card2 p,
+.card3 p {
+  color: #6b7280;
+}
+
+.image {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ===== Explore section ===== */
+
+.explore {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding: 0 40px;
+}
+
+.explore h5 {
+  color: #20b486;
+  margin: 0 0 8px;
+}
+
+.explore h2 {
+  margin: 0;
+}
+
+.explore p {
+  margin: 8px 0 0;
+  color: #6b7280;
+}
+
+.explorecards {
+  max-width: 1200px;
+  margin: 24px auto 0;
+  padding: 0 40px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.explorecard1,
+.explorecard2,
+.explorecard3 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  width: 100%;
+  max-width: 340px;
+  overflow: hidden;
+}
+
+.explorecard1 img,
+.explorecard2 img,
+.explorecard3 img {
+  width: 100%;
+  display: block;
+}
+
+.explorecard1 h5,
+.explorecard2 h5,
+.explorecard3 h5 {
+  color: #20b486;
+  margin: 16px 16px 4px;
+}
+
+.explorecard1 h2,
+.explorecard2 h2,
+.explorecard3 h2 {
+  margin: 0 16px 8px;
+  font-size: 20px;
+}
+
+.explorecard1 p,
+.explorecard2 p,
+.explorecard3 p {
+  margin: 0 16px 12px;
+  color: #6b7280;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 16px 16px;
+  font-size: 14px;
+}
+
+.rating #number {
+  color: #20b486;
+  font-weight: 600;
+}
+
+.rating span {
+  color: #6b7280;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 16px 16px;
+}
+
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile .name {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.profile .name span {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.profile h2 {
+  color: #20b486;
+  font-size: 18px;
+  margin: 0;
+}
+
+#explore-button {
+  display: block;
+  margin: 32px auto 60px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: none;
+  background-color: #20b486;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* ===== Simple responsiveness ===== */
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+  }
+
+  .lefthero {
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .hero {
+    padding: 24px 20px 40px;
+  }
+
+  /* Mobile pe heavy graphics hide kar diye */
+  #ellipse,
+  #ellipse1,
+  #dot,
+  #girl,
+  #bg-dot-right,
+  #btn3,
+  #btn7,
+  #btn8 {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin: 24px 20px 0;
+  }
+
+  .explore {
+    padding: 0 20px;
+  }
+
+  .explorecards {
+    padding: 0 20px;
+  }
+}

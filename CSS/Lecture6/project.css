@@ -1,0 +1,32 @@
+.root {
+  --btn-gr: linear-gradient(#fbefff, #f8e9fb);
+}
+
+.card {
+  /* background-color: antiquewhite; */
+  background: linear-gradient(120deg, #fdfcf3, #fff, d #fdf0f7);
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-top: 30px;
+  height: 250px;
+  width: 350px;
+  border: 3px solid #d5d2e8;
+  box-shadow: 1px 1px 10px rgb(241, 153, 153);
+}
+
+button {
+  background: var(--btn-gr);
+  padding: 10px 110px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 2px solid rgb(229, 198, 229);
+
+  width: 100%;
+
+  /* border: 1px solid var(--btn-gr); */
+  /* border-radius: ; */
+}
+
+sup {
+  font-size: 15px;
+}

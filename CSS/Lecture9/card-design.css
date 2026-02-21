@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.realestatebg {
+  background: url("https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?w=800") center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  background: url("https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?w=800") center/cover no-repeat;
+  height: 200px;
+  padding: 10px;
+}
+
+.rent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rent button {
+  background: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: blue;
+}
+
+.icons {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.cardbody {
+  padding: 15px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rating {
+  color: orange;
+}
+
+.location {
+  font-size: 13px;
+  color: gray;
+}
+
+.subdata {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+.cardfooter {
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+.agent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agent-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: gray;
+}
+
+.call {
+  background: #00c48c;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}

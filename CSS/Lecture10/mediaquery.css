@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+}
+
+@media (width < 576px) {
+  h1 {
+    color: red;
+    /* visibility: hidden; */
+  }
+}
+
+@media (577px <= width <=992px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media (993px <= width <=1600px) {
+  h1 {
+    color: purple;
+  }
+}
