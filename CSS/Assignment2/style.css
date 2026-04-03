@@ -830,11 +830,11 @@ body {
     text-align: start;
   }
   #blogbtn3 {
-    background-color: #FFF9F3;
+    background-color: #fff9f3;
     border: none;
     border-radius: 20px;
     padding: 8px 16px;
-    color: #FF9B26;
+    color: #ff9b26;
     font-weight: bold;
   }
   #blogbtn4 {
@@ -847,11 +847,110 @@ body {
   }
 
   #blogbtn5 {
-    background-color: #FDF2FA;
+    background-color: #fdf2fa;
     border: none;
     border-radius: 20px;
     padding: 8px 16px;
-    color: #C11574;
+    color: #c11574;
     font-weight: bold;
   }
+}
+
+.footer {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  background-color: #101828;
+
+  img {
+    height: 65px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+  p {
+    color: #eaecf0;
+    position: absolute;
+    text-align: start;
+    top: 160px;
+    left: 100px;
+  }
+
+  span {
+    color: grey;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+  }
+}
+
+.products {
+  position: absolute;
+  color: white;
+  top: 36px;
+  left: 400px;
+  h4 {
+    color: grey;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+}
+
+.Company {
+  position: absolute;
+  color: white;
+  top: 36px;
+  left: 600px;
+  h4 {
+    color: grey;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  button {
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    border: none;
+  }
+}
+
+.social {
+  position: absolute;
+  color: white;
+  top: 36px;
+  left: 800px;
+  h4 {
+    color: grey;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+}
+
+.legal {
+  position: absolute;
+  color: white;
+  top: 36px;
+  left: 950px;
+  h4 {
+    color: grey;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+}
+
+.social-icons img {
+  height: 22px;
+  color: grey;
+  position: absolute;
+  top: 340px;
+  left: 77%;
 }
