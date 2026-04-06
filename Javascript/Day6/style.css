@@ -10,3 +10,29 @@
   box-shadow: 3px 3px 2px black;
   font-size: 25px;
 }
+
+#box {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  padding: 10%;
+  text-transform: capitalize;
+  box-shadow: 3px 3px 2px black;
+  font-size: 25px;
+}
+
+.fruits {
+  background-color: white;
+  height: 200px;
+  width: 100px;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  padding: 10%;
+  text-transform: capitalize;
+  box-shadow: 3px 3px 2px black;
+  font-size: 25px;
+}
