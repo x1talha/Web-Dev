@@ -1,8 +1,39 @@
+body.dark .navbar,
+body.dark .searchbar,
+body.dark .explorecard1,
+body.dark .explorecard2,
+body.dark .explorecard3,
+body.dark .tutorcard1,
+body.dark .tutorcard2,
+body.dark .tutorcard3,
+body.dark .tutorcard4,
+body.dark .review {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+body.dark a,
+body.dark p,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark span,
+body.dark li {
+  color: white;
+}
+
+body.dark input {
+  background-color: #222;
+  color: white;
+}
+
 body {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  background-color: #fefefe;
 }
 
 .navbar {
