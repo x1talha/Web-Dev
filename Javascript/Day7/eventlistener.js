@@ -6,7 +6,6 @@ btn1.addEventListener("click", () => {
 
 btn1.addEventListener("click", () => {
   console.log("Button 1 clicked by Event Listener ( Handler 2 )");
-
 });
 
 const handler3 = () => {
@@ -15,8 +14,6 @@ const handler3 = () => {
 
 btn1.addEventListener("click", () => {
   console.log("Button 1 clicked by Event Listener ( Handler 4 )");
-
 });
 
-
-btn1.removeEventListener("click"), (handler3);
+(btn1.removeEventListener("click"), handler3);

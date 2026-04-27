@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In Animation</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            opacity: 0; /* Start as invisible */
+            animation: fadeIn 2s forwards; /* Animation name, duration, and stop at end */
+        }
+
+        /* Define the animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0; /* Start as invisible */
+            }
+            100% {
+                opacity: 1; /* Fade to fully visible */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box"></div> <!-- Box will fade in -->
+
+</body>
+</html>

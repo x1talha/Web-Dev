@@ -1,0 +1,11 @@
+JavaScript:
+
+Client side ( scripting language )
+Server ( Node.js )
+Can change content of HTML Element
+Can change content of CSS
+DOM ( Document Object Model )
+
+
+
+
